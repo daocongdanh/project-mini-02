@@ -1,0 +1,336 @@
+/* Home */
+.home {
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    padding: 30px 0;
+}
+.home .header .main {
+    display: flex;
+    background-color: var(--bg-one);
+    padding: 25px 40px;
+    border-radius: 45px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+.home .header .main .inner-logo a img {
+    width: 170px;
+    height: auto;
+}
+.home .header .main .inner-list ul{
+    display: flex;
+}
+.home .header .main .inner-list ul li {
+    margin-left: 30px;
+}
+.home .header .main .inner-list ul li:nth-child(1) a {
+    color: var(--color-two);
+}
+.home .header .main .inner-list ul li a {
+    font-size: 15px;
+    color: var(--color-text-one);
+    transition: all 0.6s;
+}
+.home .header .main .inner-list ul li a:hover {
+    color: var(--color-two);
+}
+.home .inner-content {
+    padding-top: 120px;
+}
+.home .inner-content .inner-box {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home .inner-content .inner-box .inner-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.home .inner-content .inner-box .inner-desc {
+    color: #fff;
+    display: block;
+    margin-bottom: 40px;
+}
+.home .inner-content .inner-box .button-one {
+    background-color: var(--color-two);
+}
+.home .inner-content .inner-box .button-one:hover {
+    background-color: var(--color-one);
+}
+.home-list {
+    position: relative;
+    bottom: 250px;
+    margin-bottom: -140px;
+}
+.home-list .inner-item {
+    padding-top: 80px;
+}
+.home-list .inner-item .inner-box {
+    background-color: var(--bg-one);
+    padding: 50px;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.home-list .inner-item .inner-box:hover .inner-image {
+    background-color: var(--color-two);
+}
+.home-list .inner-item .inner-box .inner-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--color-one);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.6s;
+}
+.home-list .inner-item .inner-box .inner-title {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.home-list .inner-item .inner-box .inner-desc {
+    font-size: 15px;
+    margin: 0;
+}
+/* End Home */
+/* Button */
+.button {
+    padding: 8px 16px;
+    border-radius: 45px;
+    border: 0;
+    background-color: var(--color-one);
+    transition: all 0.6s;
+    color: #fff;
+    font-size: 14px;
+}
+.button:hover {
+    background-color: var(--color-two);
+}
+/* End Button */
+/* About */
+.about .sec-one .inner-image {
+    display: flex;
+    justify-content: center;
+}
+.about .sec-one .inner-content .inner-title {
+    margin-bottom: 30px;
+}
+.about .sec-one .inner-content .inner-desc {
+    color: var(--color-text-one)
+}
+.about .sec-two .hr {
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+}
+.about .sec-three {
+    padding: 100px 0;
+}
+.about .sec-three .inner-image {
+    display: flex;
+    justify-content: center;
+}
+.about .sec-three .inner-content .inner-title {
+    margin-bottom: 30px;
+}
+.about .sec-three .inner-content .inner-desc {
+    color: var(--color-text-one)
+}
+/* End About */
+/* Work Process */
+.wordprocess {
+    text-align: center;
+    background-image: url(../images/work-process-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 120px 0;
+}
+.wordprocess .inner-main .inner-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.wordprocess .inner-main .inner-desc {
+    color: #fff;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.wordprocess .inner-list .inner-box {
+    background-color: var(--bg-one);
+    padding: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s;
+}
+.wordprocess .inner-list .inner-box::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #fff;
+    opacity: 0.15;
+    top: 10px;
+    left: 10px;
+}
+.wordprocess .inner-list .inner-box:hover {
+    transform: translateY(-10px);
+}
+.wordprocess .inner-list .inner-box .inner-image {
+    margin-bottom: 15px;
+}
+.wordprocess .inner-list .inner-box .inner-title {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.wordprocess .inner-list .inner-box .inner-desc {
+    color: var(--color-text-one);
+    font-size: 14px;
+}
+/* End Work Process */
+/* Testimonital */
+.testimonial {
+    padding: 120px 0;
+}
+.testimonial .inner-main .inner-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.testimonial .inner-main .inner-desc {
+    color: var(--color-text-one);
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.testimonial .inner-list .inner-box {
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    padding: 25px;
+    border-radius: 25px;
+}
+.testimonial .inner-list .inner-box:hover .inner-content .inner-right {
+    margin-left: 20px;
+}
+.testimonial .inner-list .inner-box .inner-image {
+    margin-bottom: 25px;
+}
+.testimonial .inner-list .inner-box .inner-desc {
+    color: var(--color-text-one);
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.testimonial .inner-list .inner-box .inner-content .inner-left img {
+    border-radius: 50%;
+}
+.testimonial .inner-list .inner-box .inner-content .inner-right {
+    transition: all 0.6s;
+}
+.testimonial .inner-list .inner-box .inner-content .inner-right .inner-title {
+    margin-bottom: 10px;
+}
+.testimonial .inner-list .inner-box .inner-content .inner-right .inner-sub-title {
+    color: var(--color-two);
+}
+/* End Testimonital */
+/* Pricing Table */
+.pricing {
+    background-color: var(--bg-two);
+    padding: 100px 0;
+    text-align: center;
+}
+.pricing .inner-desc {
+    color: var(--color-text-one);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.pricing .inner-box {
+    background-color: var(--bg-one);
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 30px;
+}
+.pricing .inner-box .inner-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.pricing .inner-box .inner-price {
+    background-color: var(--color-one);
+    padding: 20px;
+    border-radius: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.pricing .wrap .inner-box .inner-price:nth-child(5) {
+    font-size: 30px;
+}
+.pricing .inner-box .inner-price .price {
+    font-size: 20px;
+    font-weight: 600;
+}
+.pricing .inner-box ul li {
+    color: var(--color-text-one);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+.pricing .inner-box ul li:nth-child(5) {
+    text-decoration: line-through;
+}
+.pricing .inner-box ul li:nth-child(6) {
+    text-decoration: line-through;
+}
+.pricing .inner-box .button {
+    margin-top: 30px;
+    display: inline-block;
+}
+.time {
+    background-image: url(../images/fun-facts-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+}
+.time .inner-box {
+    text-align: center;
+    color: #fff;
+    transition: all 0.6s;
+    position: relative;
+}
+.time .inner-box::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: url(../images/circle-dec.png) center center no-repeat;
+}
+.time .inner-box:hover {
+    transform: translateY(-10px);
+}
+.time .inner-box .quantity {
+    font-weight: 700;
+    font-size: 40px;
+}
+.time .inner-box .decs {
+    font-size: 16px;
+}
+/* End Pricing Table */
